@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="esp-weblogger.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.esp-weblogger.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_HEADER1_ES6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_HEADER1_NOES6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_HEAD_LAST_SCRIPT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_HEAD_STYLE1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_HEAD_STYLE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_HEAD_STYLE_ZIGBEE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_SCRIPT_CONSOL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_SCRIPT_MODULE_TEMPLATE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_SCRIPT_ROOT_NO_WEB_DISPLAY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_SCRIPT_ROOT_PART2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_SCRIPT_ROOT_SSE_NO_WEB_DISPLAY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_SCRIPT_ROOT_WEB_DISPLAY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_SCRIPT_TEMPLATE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_HEADER1_ES6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_HEADER1_NOES6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_HEAD_LAST_SCRIPT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_HEAD_STYLE1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_HEAD_STYLE2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_HEAD_STYLE_ZIGBEE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_SCRIPT_CONSOL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_SCRIPT_MODULE_TEMPLATE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_SCRIPT_ROOT_NO_WEB_DISPLAY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_SCRIPT_ROOT_PART2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_SCRIPT_ROOT_SSE_NO_WEB_DISPLAY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_SCRIPT_ROOT_WEB_DISPLAY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_SCRIPT_TEMPLATE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\af_AF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\bg_BG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\cs_CZ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\de_DE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\el_GR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\en_GB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\es_ES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\fr_FR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\fy_NL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\he_HE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\hu_HU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\it_IT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\ko_KO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\nl_NL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\pl_PL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\pt_BR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\pt_PT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\ro_RO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\ru_RU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\sk_SK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\sv_SE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\tr_TR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\uk_UA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\vi_VN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\zh_CN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\zh_TW.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

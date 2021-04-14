@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectName>esp-weblogger</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\esp-weblogger;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\vwnc2pk3.ocr\Micro Platforms\visualmicro\ide\libraries;C:\Users\Beto\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\libraries;C:\Users\Beto\Documents\Arduino\libraries;C:\Users\Beto\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266;C:\Users\Beto\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266\avr;C:\Users\Beto\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266\libb64;C:\Users\Beto\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266\spiffs;C:\Users\Beto\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266\umm_malloc;C:\Users\Beto\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\variants\nodemcu;C:\Users\Beto\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\tools\sdk\include;C:\Users\Beto\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\tools\sdk\lwip2\include;C:\Users\Beto\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\tools\sdk\libc\xtensa-lx106-elf\include;C:\Users\Beto\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\2.5.0-3-20ed2b9\xtensa-lx106-elf\include\c++\4.8.2;C:\Users\Beto\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\2.5.0-3-20ed2b9\xtensa-lx106-elf\include\c++\4.8.2\xtensa-lx106-elf;C:\Users\Beto\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\2.5.0-3-20ed2b9\xtensa-lx106-elf\include;C:\Users\Beto\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\2.5.0-3-20ed2b9\lib\gcc\xtensa-lx106-elf\4.8.2\include;C:\Users\Beto\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\2.5.2\tools\sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.esp-weblogger.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>__ESP8266_esp8266__;__ESP8266_ESP8266__;__ets__;ICACHE_FLASH;NONOSDK221=1;F_CPU=80000000L;LWIP_OPEN_SRC;TCP_MSS=536;LWIP_FEATURES=1;LWIP_IPV6=0;ARDUINO=10807;ARDUINO_ESP8266_NODEMCU;ARDUINO_ARCH_ESP8266;FLASHMODE_DIO;ESP8266;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="VisualMicro" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="esp-weblogger.ino">
+      <FileType>CppCode</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tasmota\html_compressed\HTTP_HEADER1_ES6.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_HEADER1_NOES6.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_HEAD_LAST_SCRIPT.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_HEAD_STYLE1.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_HEAD_STYLE2.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_HEAD_STYLE_ZIGBEE.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_SCRIPT_CONSOL.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_SCRIPT_MODULE_TEMPLATE.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_SCRIPT_ROOT_NO_WEB_DISPLAY.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_SCRIPT_ROOT_PART2.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_SCRIPT_ROOT_SSE_NO_WEB_DISPLAY.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_SCRIPT_ROOT_WEB_DISPLAY.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_compressed\HTTP_SCRIPT_TEMPLATE.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_HEADER1_ES6.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_HEADER1_NOES6.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_HEAD_LAST_SCRIPT.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_HEAD_STYLE1.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_HEAD_STYLE2.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_HEAD_STYLE_ZIGBEE.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_SCRIPT_CONSOL.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_SCRIPT_MODULE_TEMPLATE.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_SCRIPT_ROOT_NO_WEB_DISPLAY.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_SCRIPT_ROOT_PART2.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_SCRIPT_ROOT_SSE_NO_WEB_DISPLAY.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_SCRIPT_ROOT_WEB_DISPLAY.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\html_uncompressed\HTTP_SCRIPT_TEMPLATE.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\af_AF.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\bg_BG.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\cs_CZ.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\de_DE.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\el_GR.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\en_GB.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\es_ES.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\fr_FR.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\fy_NL.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\he_HE.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\hu_HU.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\it_IT.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\ko_KO.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\nl_NL.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\pl_PL.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\pt_BR.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\pt_PT.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\ro_RO.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\ru_RU.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\sk_SK.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\sv_SE.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\tr_TR.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\uk_UA.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\vi_VN.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\zh_CN.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="tasmota\language\zh_TW.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="__vm\.esp-weblogger.vsarduino.h" />
+  </ItemGroup>
+  <PropertyGroup>
+    <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
